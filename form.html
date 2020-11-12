@@ -8,32 +8,61 @@
     <h2><b>Or enter a new shipping address</b></h2>
 
     <p>Be sure to click "ship to this address" when done . </p>
-    <form style="text-align:center;">
+    <form style="text-align:center">
 
-        <label for="username"><b>Full Name:</b> 
-        <input type="text" required="required" /><br /></label>
-        
+        <label><b>Full Name:</b>
+            <input type="text" required="required" /><br /></label>
+
         <label><b>Address Line 1:</b>
-        <input type="text" required="required" ></label>
+            <input type="text" required="required"></label>
         <p style="font-size: small;">Street address, P.O. box, company name, c/o</p>
 
-        <label for="username"><b>Address Line 2:</b> 
+        <label<b>Address Line 2:</b>
             <input type="text" required="required" /><br /></label>
             <p style="font-size: small;">Apartment, suite, unit, building, floor, etc.</p>
 
-            <label for="username"><b>City:</b> 
+            <label><b>City:</b>
                 <input type="text" required="required" /><br /></label>
 
-                <label for="username"><b>State/Province/Region:</b> 
-                    <input type="text" required="required" /><br /></label>
+            <label><b>State/Province/Region:</b>
+                <input type="text" required="required" /><br /></label>
 
-                    <label for="username"><b>Zip:</b> 
-                        <input type="text" required="required" /><br /></label>
+            <label><b>Zip:</b>
+                <input type="text" required="required" /><br /></label>
 
-                        <label for="username"><b>Address Line 2:</b> 
-                            <input type="text" required="required" /><br /></label>
+            <label><b>Address Line 2:</b>
+                <input type="text" required="required" /><br /></label>
 
-        <input type="submit" value="Submit" />
+            <label>
+                <b>Country</b>
+            </label>
+            <select>
+                <option value="United States">United States</option>
+                <option value="Egypt">Egypt</option>
+                <option value="England">England</option>
+                <option value="Italy">Italy</option>
+                <option value="Spain">Spain</option>
+            </select> <br />
+
+
+            <label><b>Phone Number:</b>
+                <input type="text" required="required" /><br /></label>
+
+            <p style="font-size: larger;"><b>Optional Delivery Prefrences.</b></p>
+
+
+            <label>
+                <b>Address Type:</b>
+            </label>
+            <select>
+                <option value="Select an address type">Select an address type</option>
+            </select> <br />
+
+            <label><b>Security Access Code:</b>
+                <input type="text" required="required" /><br /></label>
+
+            <p style="font-size: small;">For buildings or gated communities</p>
+            <input type="submit" value="Ship to this address" />
     </form>
 
 
